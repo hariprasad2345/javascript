@@ -1,0 +1,56 @@
+
+.FAQ-heading1 h1{
+    font-family:  Arial, Helvetica, sans-serif;;
+    font-size: 26px;
+} 
+.FAQ-heading1 p{
+    font-size: 16px;
+    font-family:   sans-serif;
+}
+.FAQ-heading1 i{
+    padding-left: 95px;
+}
+.FAQ-heading2 h1{
+    font-family:  Arial, Helvetica, sans-serif;;
+    font-size: 26px;
+} 
+.FAQ-heading2 p{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.FAQ-heading2 i{
+    padding-left: 230px;
+}
+.FAQ-heading3 h1{
+    font-family:  Arial, Helvetica, sans-serif;;
+    font-size: 26px;
+} 
+.FAQ-heading3 p{
+    font-size: 16px;
+    font-family:   sans-serif;
+}
+.FAQ-heading3 i{
+    padding-left: 100px;
+}
+.FAQ-heading4 h1{
+    font-family: Arial, Helvetica, sans-serif;;
+    font-size: 26px;
+} 
+.FAQ-heading4 p{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.FAQ-heading4 i{
+    padding-left: 70px;
+}
+.FAQ-heading5 h1{
+    font-family: Arial, Helvetica, sans-serif;;
+    font-size: 26px;
+} 
+.FAQ-heading5 p{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.FAQ-heading5 i{
+    padding-left: 75px;
+}

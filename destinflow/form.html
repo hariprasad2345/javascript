@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewsLetter</title>
+    <style>
+        .newsletter{
+            margin-left: 100px;
+            margin-top: 50px;
+            display: flex;
+            column-gap:350px;
+        }
+        .news1{
+            margin-top: 20px;
+        }
+        .news1 h1{
+            color: white;
+            background-color: black;
+            width: 250px;
+            text-align: center;
+        }
+        .news1 p{
+            font-size: 20px;
+            margin-top: 30px;           
+        }
+        .news2 p{
+            font-size: 20px;
+            margin-top: 20px; 
+        }
+        .news2 input{
+            height: 60px;
+            width: 200px;
+            font-size: 15px;
+        }
+        button{
+            padding: 20px 15px;
+            background-color: black;
+            color: white;
+            font-size: 18px;
+        }
+        button:hover{
+            color: black;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="newsletter">
+        <div class="news1">
+            <h1>DESTIN FLOW</h1>
+            <p>We provide travelers with a variety of amenities and <br>services tailored to
+                 meet their every need, assuring a<br> comfortable and enjoyable stay.</p>
+        </div>
+        <div class="news2">
+            <h1>Subscribe to our newsletter</h1>
+            <p>click here for the email newsletter form.</p>
+            <input type="email" id="input" placeholder="Please Enter Your Email">
+            <button id="btn">Subscribe</button>
+        </div>
+    </div>
+</body>
+<script>
+  let input = document.getElementById("input");
+let btn = document.getElementById("btn");
+
+btn.addEventListener("click", function() {
+    input.value = "Thank you! Your submission has been received!";
+    input.style.width = "400px";
+    input.style.backgroundColor = " rgb(77, 140, 182)";
+    input.style.fontSize = "16px";
+    input.style.textAlign = "center";
+    btn.style.display = "none";
+    input.style.color ="white";
+});
+
+</script>
+</html>

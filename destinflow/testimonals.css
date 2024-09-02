@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+   background-color: #161515;
+    color: #161515;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    height: 100vh;
+    width: 100%;
+ 
+}
+
+.testimonial-section {
+    text-align: left;
+    padding: 20px;
+    max-width:1200px;
+   
+     position: relative; 
+  
+}
+
+.testimonial-section h2 {
+    font-size: 32px;
+    font-family: serif;
+    margin-bottom: 10px;
+
+}
+
+.testimonial-section p {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.testimonial-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.testimonial {
+     flex: 1 0 30%;  
+    max-width: 40%;
+    margin: 0 10px ;
+    text-align: left;
+    transition: transform 0.5s ease-in-out;
+   
+}
+.testimonial img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    float: left;
+    column-gap: 30px;
+}
+.text{
+    margin-left: 40px;
+}
+
+
+.testimonial h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.testimonial p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+blockquote {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #d0d0d0;
+    font-style: italic;
+    border-left: 2px solid #555;
+    padding-left: 10px;
+}
+
+.stars {
+    font-size: 20px;
+    color: #f5c518;
+}
+
+/* Arrow Buttons at the Right Top Corner */
+.carousel-buttons {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.carousel-buttons button {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin-left: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-buttons button:hover {
+    background-color: #555;
+}

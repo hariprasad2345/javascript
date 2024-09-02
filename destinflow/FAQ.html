@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>FAQ</title>
+    <link rel="stylesheet" href="FAQ.css">
+</head>
+<body>
+  <div class="FAQ">
+    <div class="FAQ-heading1">
+        <h1>Resort suitable for families with children?
+            <i class="fa-solid fa-plus icon"></i>
+        </h1>
+        <p style="display: none;" class="FAQtext">To cater to our young customers, our resort is family-friendly and provides services<br>
+             such as kids' clubs, playgrounds, and family-oriented activities.</p>
+    </div>
+    <div class="FAQ-heading2">
+        <h1>Are pets allowed at the resort?
+            <i class="fa-solid fa-plus icon"></i>
+        </h1>
+        <p style="display: none;" class="FAQtext">In order to preserve a peaceful and comfortable environment, we have<br>
+             implemented a pet policy that prohibits normal pets from entering the premises.</p>
+    </div>
+    <div class="FAQ-heading3">
+        <h1>What is the check-in and check-out time?
+            <i class="fa-solid fa-plus icon"></i>
+        </h1>
+        <p style="display: none;" class="FAQtext">The check-in and check-out times are both at [time]. Early or late check-in is <br>
+            possible upon request and subject to availability.</p>
+    </div>
+    <div class="FAQ-heading4">
+        <h1>Excursions or activities through the resort?
+            <i class="fa-solid fa-plus icon"></i>
+        </h1>
+        <p style="display: none;" class="FAQtext">Dedicated concierge service to assist you in organising various excursions and<br>
+             activities to see the area sites.</p>
+    </div>
+    <div class="FAQ-heading5">
+        <h1>How can I make a reservation at the resort?
+            <i class="fa-solid fa-plus icon"></i>
+        </h1>
+        <p style="display: none;" class="FAQtext">You may book directly through our website, by phone, or by contacting your<br>
+             chosen travel agent. We want to welcome you to our resort soon!.</p>
+    </div>
+  </div>
+  
+  <script>
+   var icons = document.querySelectorAll(".icon");
+   var texts = document.querySelectorAll(".FAQtext");
+
+   icons.forEach(function(icon, index) {
+       icon.addEventListener("click", function() {
+           if (texts[index].style.display === "none") {
+               texts[index].style.display = "block";
+               icon.classList.remove("fa-plus");
+               icon.classList.add("fa-minus");
+           } else {
+               texts[index].style.display = "none";
+               icon.classList.remove("fa-minus");
+               icon.classList.add("fa-plus");
+           }
+       });
+   });
+  </script>
+</body>
+</html>
